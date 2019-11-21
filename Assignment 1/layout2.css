@@ -1,0 +1,224 @@
+body{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    margin-top:0px;
+    background-color: black;
+}
+ul{ margin-top:0px;
+    margin-left:100px; 
+    padding:12px 32px;
+}
+li{
+    display:inline;
+    background-color: black;
+    color:grey;
+    text-align: center;
+    padding:0px 4px 0px 4px;
+    font-size:small;
+
+}
+
+#brand{
+    font-size: 16px;
+}
+
+section{
+    margin:0px 140px 0px 140px;
+}
+
+#hbox{
+    background-color: #E8E8E8;
+    text-align: left;
+    padding:32px 48px;
+    border-radius: 3px;
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    margin:0px;
+    font-size:48px;
+}
+
+button{
+    background-color:#3399CC;
+    color:white;
+    text-decoration: none;
+    padding:8px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    border:1px solid #3399cc;
+}
+
+.grid-container {
+    display: grid;
+    justify-content:center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:20px;
+    background-color: white;
+    padding-bottom:20px;
+  }
+
+
+
+.latest{
+    margin:0px;
+    padding:24px 0px 8px 0px;
+    font-weight: normal;
+}
+
+.ubox{
+    padding: 3px;
+    border: 1px solid lightgray;
+}
+
+.box{
+    height:130px;
+    width:auto;
+    background-color: lightgrey;
+    color: gray;
+    text-align: center;
+    position:relative;
+}
+
+h2{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin:0; 
+}
+
+.box2{
+    text-align: center;
+    padding:24px 32px 16px 32px;
+}
+
+.feature{
+    margin:0px;
+    font-weight: normal;
+    padding:8px 0px 0px 0px;
+}
+
+.para{
+    margin:0;
+    padding:12px 8px;
+    font-size:small;
+}
+
+ 
+
+ h3{
+     padding:8px 0px 0px 0px;
+     font-weight:normal;
+
+ } 
+
+.wbtn{
+    background-color: white;
+    color:black;
+    border:1px solid lightgray;
+}
+
+.hr2{
+    margin:50px 0px;
+}
+
+.foot{
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 768px){
+    ul{
+        padding:1vw 0vw;
+        margin:0% 0% 0% 20%;
+    }
+
+    li{
+        font-size:1.5vw;
+        
+    }
+
+    #brand{
+        font-size:1.75vw;
+        padding:0;
+    }
+
+    section{
+        margin:0% 20%;
+        padding-top:2vw;
+    }
+    #hbox{
+        margin:0px;
+        padding:4vw 5vw;
+        border-radius:.5vw;
+    }
+
+    .heading{
+        margin:0px;
+        font-size:4vw;
+    }
+    .para1{
+        font-size: 1.5vw;
+        margin-bottom: 0px;
+    }
+
+    button{
+        padding:.5vw 1vw;
+        border-radius:.5vw;
+        font-size: 1vw;
+    }
+
+    .latest{
+        font-size: 2vw;
+        padding:0px;
+    }
+
+    .ubox{
+        padding: .5vw;
+    }
+
+    .box{
+        height:10vw;   
+     }
+
+    h2{
+        font-size:2vw;
+    }
+
+    .box2{
+        text-align: center;
+        padding:1vw 1vw .5vw 1vw;
+    }
+
+
+    .feature{
+      font-size: 2vw;
+      padding:0px;
+    }
+
+    .para{
+        font-size: 1vw;
+        padding:1vw 0 0 0;
+    }
+
+    .grid-container{
+        grid-gap:4%;
+        padding:1vw 0vw 3vw 0vw;
+        grid-template-columns: auto auto ;
+        justify-content: space-between;
+    }
+
+    .hr2{
+        margin:3vw 0vw;
+    }
+
+    .foot{
+        font-size: 1vw;
+    }
+
+}
