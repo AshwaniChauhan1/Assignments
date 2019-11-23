@@ -149,7 +149,7 @@ li{
  @media only screen and (max-width: 768px){
     ul{
         padding:1vw 0vw;
-        margin:0% 0% 0% 20%;
+        margin:0% 0% 0% 12%;
     }
 
     li{
@@ -163,7 +163,7 @@ li{
     }
 
     section{
-        margin:0% 20%;
+        margin:0% 12%;
         padding-top:2vw;
     }
 
@@ -183,11 +183,11 @@ li{
     .clock{
         margin:0px;
         padding:0;
-        font-size:1.25vw;
+        font-size:1.75vw;
     }
 
     .post{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     .placeholder{
@@ -201,10 +201,10 @@ li{
      }
 
     .heading{
-        font-size:1.5vw;
+        font-size:1.75vw;
     }
     .para{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     .rbox{
@@ -218,7 +218,7 @@ li{
         border-top-left-radius:.25vw;
         border-bottom-left-radius:.25vw;
         padding: .75vw;
-        font-size:1vw;
+        font-size:1.5vw;
      }
 
      .icon-wrapper{
@@ -236,16 +236,16 @@ li{
      }
 
     .heading1{
-        font-size:1.5vw;
+        font-size:1.75vw;
         padding:.5vw 0vw;
     }
 
     td{
-        font-size:1vw;
+        font-size:1.5vw;
     }
 
     .para1{
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding:0;
     }
 
@@ -254,7 +254,7 @@ li{
     }
 
     .foot{
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding:2vw 0vw;
     }
 

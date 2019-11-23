@@ -84,19 +84,11 @@ li{
 }
 
 @media only screen and (max-width: 768px){
-    h2{
-        font-size:2vw;
+    ul{
+        padding:0;
+        margin:0% 0% 0% 12%;
     }
-    .box{
-        height:12vw;    }
     
-    .secondaryText{
-        font-size:1.5vw;
-    }
-    section{
-        margin:0% 20%;
-        padding-top:2vw;
-    }
     li{
         font-size:1.5vw;
         padding:0px;
@@ -106,9 +98,18 @@ li{
         padding:0;
     }
 
-    ul{
-        padding:1vw 0vw;
-        margin:0% 0% 0% 20%;
+    h2{
+        font-size:2vw;
+    }
+    .box{
+        height:12vw;    }
+    
+    .secondaryText{
+        font-size:1.75vw;
+    }
+    section{
+        margin:0% 12%;
+        padding-top:2vw;
     }
 
     .proname{
@@ -120,7 +121,7 @@ li{
     }
 
     .para{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     .grid-container{
@@ -133,7 +134,7 @@ li{
     }
 
     .foot{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
 }

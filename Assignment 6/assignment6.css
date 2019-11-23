@@ -1,0 +1,96 @@
+body{
+    background-image: url("img/background.png");
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head-box{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:0;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.box-ingredients{
+    width:30%;
+    padding:12px 0px;
+}
+
+.ingredients{
+    font-weight: normal;
+    margin:0px;
+    color: #334A3D;
+}
+
+.starwest{
+    color:#334A3D;
+}
+
+.section-box{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin:20px auto;
+    width:80%;
+    height:800px;
+    z-index: -1;
+
+}
+
+.brown-head{
+    background-image: linear-gradient(#AA7A77,#744346);
+}
+
+.products{
+    color:white;
+    margin:0;
+    padding:4px 6px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+.large-font{
+    font-size: 20px;
+}
+
+.box-varity{
+    position: relative;
+    height: 350px;
+}
+
+.img-varity{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position:absolute;
+    z-index:0;
+    object-fit:none;
+    width:100%;
+    max-height:350px;
+}
+
+
+.premium{
+    position:absolute;
+   margin:0px;
+   font-weight:normal;
+   right:0px;
+   top: 50%;
+   z-index: 2;
+   margin:5% 5%;
+}
+
+.box-premium{
+    position:absolute;
+    background-color: lightgrey;
+    z-index: 1;
+    width: 280px;
+    height:110px;
+    opacity:.7;
+    right:0px;
+    bottom:0px;
+    margin:5% 5%;
+    
+}
