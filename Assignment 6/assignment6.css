@@ -12,31 +12,119 @@ body{
     width:80%;
     margin-left:auto;
     margin-right:auto;
+    padding: 1px;
 }
-
-.box-ingredients{
-    width:30%;
-    padding:12px 0px;
-}
-
-.ingredients{
-    font-weight: normal;
-    margin:0px;
-    color: #334A3D;
+.head1{
+    background-image: url("img/assignment6a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
 }
 
 .starwest{
-    color:#334A3D;
+    color:darkgreen;
+    font-size:12px;
+    margin:0;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 0px;
+}
+
+.top-list{
+    display: flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+
+.top-list-item{
+    text-decoration:underline;
+    text-underline-position: under;
+    font-size: 12px;
+    color:#744346;
+    font-weight: bold;
+    padding:0px 8px;
+    text-align: center;
+    margin:0;
+    border-right:1px solid #744346;
+    line-height: 1;
+}
+
+.no-border{
+    border:none;
+}
+
+.head-inputbox{
+  display: flex;
+  margin:8px 0px;
+  justify-content: center;
+  border:5px soild gray;
+  padding:0px 4px;
+ }
+
+ .head-inputbox ::placeholder{
+     color:black;
+     font-size: 14px;
+ }
+
+ .head-input{
+     padding:0px 36px 0px 4px;
+ }
+ 
+ input[type=text]{
+     border:1px solid silver;
+ }
+
+ .icon-wrapper{
+ padding:2px 4px;
+ background-image: linear-gradient(#AA7A77,#744346);
+ border: none;
+ color:white;
+ font-size: 12px;
+ font-family:;
+ }
+
+
+.nav-list{
+    background-image: linear-gradient(#AA7A77,#744346);
+    margin:0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+    padding:0px;
+    overflow: auto;
+    list-style-type: none;
+}
+
+.nav-item{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 16px 2px 16px;
+    border-right:.5px solid white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-num{
+    float:right;
+    color:white;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    padding-right:10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .section-box{
-    position: relative;
     background-color: white;
     border-radius: 10px;
     margin:20px auto;
     width:80%;
-    height:800px;
     z-index: -1;
+    padding: 1px;
+    clear:both;
 
 }
 
@@ -44,16 +132,17 @@ body{
     background-image: linear-gradient(#AA7A77,#744346);
 }
 
-.products{
+.heading{
     color:white;
     margin:0;
-    padding:4px 6px;
+    padding:0px 6px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:16px;
+    font-size:14px;
 }
 
-.large-font{
+.big-letter{
     font-size: 20px;
+    vertical-align: -2px;
 }
 
 .box-varity{
@@ -73,24 +162,245 @@ body{
 
 
 .premium{
-    position:absolute;
+   position:absolute;
+   right:0px;
+   background:rgba(245,245,245,.8);
    margin:0px;
    font-weight:normal;
-   right:0px;
-   top: 50%;
+   bottom: 0;
    z-index: 2;
-   margin:5% 5%;
+   margin:2% 1%;
+   padding:8px 16px;
+   text-align: right;
+   font-family: 'arial';
+   line-height: 1.25;
 }
 
-.box-premium{
+.count{
     position:absolute;
-    background-color: lightgrey;
-    z-index: 1;
-    width: 280px;
-    height:110px;
-    opacity:.7;
-    right:0px;
-    bottom:0px;
-    margin:5% 5%;
+   left:0px;
+   background:rgba(245,245,245,.8);
+   margin:0px;
+   bottom: 0;
+   z-index: 2;
+   padding:2px 0px;
+   border-bottom-left-radius: 10px;
+   color:gray;
+   font-weight:bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.direction{
+    padding:4px 8px;
+    font-weight:bold;
+}
+.one{
+    padding:4px 8px;
+}
+
+.two{
+    padding:4px 8px;
+    color:black;
+}
+
+
+.box{
+    border:1px solid #744346;
+    background-color: whitesmoke;
+   
+}
+
+.readmore{
+    color:darkgreen;
+    font-weight:lighter;
+    font-size:12px;
+    text-decoration:underline;
+    padding: 0px 4px;
+    float:right;
+    text-underline-position: under;
+}
+
+.certi-list{
+    margin:0px;
+    padding:6px 4px;
+    list-style-type: none;
+}
+
+.certi-item{
+    font-size:11px;
+    padding:2px 8px;
     
 }
+
+.product-list{
+    margin:0px;
+    padding:12px 24px;
+    list-style: none;
+}
+
+.product-list-item{
+    font-size:14px;
+}
+
+.get{
+    margin:0;
+    font-size:14px;
+    padding:12px 24px 0px 24px;
+    text-align:center;
+    line-height:1;
+}
+
+.box-check1{
+    font-size:15px;
+    padding:6px 32px 4px 32px;
+}
+
+.box-check2{
+    font-size:16px;
+    padding:4px 32px 6px 32px;
+}
+
+input[type=checkbox]{
+    transform:scale(1.4);
+    background-color: whitesmoke;
+    vertical-align:;
+}
+
+.box-input{
+    text-align:center;
+    padding: 2px 16px;
+    font-size: 14px;
+}
+
+.box-input input[type=text]{
+    padding:4px;
+}
+
+.box-signup{
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.signup{
+    color:white;
+    background-image: linear-gradient(#AA7A77,#744346);
+    border:none;
+    padding:4px 8px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+
+
+.box2{
+    position: relative;
+    margin:8px 0px;
+    background-image:url("img/woman.png");
+    background-repeat: no-repeat;
+    height:188px;
+    border:1px solid #744346;
+}
+
+.box2a{
+    position: absolute;
+    top:0px;
+    width:100%;
+    text-align: left;
+    background:rgba(211,211,211,.7) ;
+    
+    
+}
+
+.need-assistance{
+    margin:0px;
+    padding:2px 4px;
+    
+}
+
+.box2b{
+    padding:4px 0px;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    text-align: left;
+    background:rgba(211,211,211,.7) ;
+    line-height: 1;
+    font-stretch: extra-condensed;
+}
+
+.call{
+    margin:0;
+    padding:0px 0px 0px 4px;
+    font-stretch: extra-condensed;
+}
+
+.number{
+    font-size:18px;
+    font-weight:bold;
+    vertical-align:-1px;
+    line-height: 1;
+    font-stretch: narrower;
+}
+
+.starwest-heading{
+    margin:0px;
+    padding:8px 29px 0px 29px;
+    color:darkgreen;
+    font-size: 24px;
+}
+
+.starwest-list{
+    list-style-image: url("img/doted.png");
+    margin:0px;
+    padding:0px 16px 0px 24px;
+    font-size: 13px;
+}
+
+.starwest-list-item{
+    position: relative;
+    top:-5px;
+    left:5px;
+}
+
+footer{display: flex;
+    width:100%;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.footer-logo-box{
+    padding: 24px 48px 24px 8px;
+    border-right:1px solid lightgray;
+}
+
+.footer-box{
+ border-right:1px solid lightgray;
+ padding: 0px 20px 0px 8px;
+
+}
+
+.footer-list{
+ list-style: none;
+ padding: 8px 32px 8px 8px;
+ margin:0;
+}
+
+.footer-list-item{
+    font-size:11px;
+}
+
+.footer-heading{
+    margin:0;
+    padding: 0px 32px 0px 8px;
+    font-size: 12px;
+    font-weight:bold;
+    color:#744346;
+}
+
+.website{
+    margin:0px;
+    padding: 24px 4px 0px 36px;
+    text-align: right;
+    font-size: 11px;
+}
+
+
