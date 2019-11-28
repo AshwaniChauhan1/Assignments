@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/background.png");
+    background-image: url("../img/background.png");
     margin:0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -15,7 +15,7 @@ body{
     padding: 1px;
 }
 .head1{
-    background-image: url("img/assignment6a.png");
+    background-image: url("../img/assignment6a.png");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
@@ -43,7 +43,7 @@ body{
     font-size: 12px;
     color:#744346;
     font-weight: bold;
-    padding:0px 8px;
+    padding:0vw .8vw;
     text-align: center;
     margin:0;
     border-right:1px solid #744346;
@@ -128,6 +128,10 @@ body{
 
 }
 
+.left-box{
+    margin:8px;
+}
+
 .brown-head{
     background-image: linear-gradient(#AA7A77,#744346);
 }
@@ -145,90 +149,8 @@ body{
     vertical-align: -2px;
 }
 
-.box-varity{
-    position: relative;
-    height: 350px;
-}
-
-.img-varity{
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position:absolute;
-    z-index:0;
-    object-fit:none;
-    width:100%;
-    max-height:350px;
-}
-
-
-.premium{
-   position:absolute;
-   right:0px;
-   background:rgba(245,245,245,.8);
-   margin:0px;
-   font-weight:normal;
-   bottom: 0;
-   z-index: 2;
-   margin:2% 1%;
-   padding:8px 16px;
-   text-align: right;
-   font-family: 'arial';
-   line-height: 1.25;
-}
-
-.count{
-    position:absolute;
-   left:0px;
-   background:rgba(245,245,245,.8);
-   margin:0px;
-   bottom: 0;
-   z-index: 2;
-   padding:2px 0px;
-   border-bottom-left-radius: 10px;
-   color:gray;
-   font-weight:bold;
-   font-family: 'Times New Roman', Times, serif;
-}
-.direction{
-    padding:4px 8px;
-    font-weight:bold;
-}
-.one{
-    padding:4px 8px;
-}
-
-.two{
-    padding:4px 8px;
-    color:black;
-}
-
-
-.box{
-    border:1px solid #744346;
-    background-color: whitesmoke;
-   
-}
-
-.readmore{
-    color:darkgreen;
-    font-weight:lighter;
-    font-size:12px;
-    text-decoration:underline;
-    padding: 0px 4px;
-    float:right;
-    text-underline-position: under;
-}
-
-.certi-list{
-    margin:0px;
-    padding:6px 4px;
-    list-style-type: none;
-}
-
-.certi-item{
-    font-size:11px;
-    padding:2px 8px;
-    
+.small-letter{
+    font-size: 16px;
 }
 
 .product-list{
@@ -241,60 +163,10 @@ body{
     font-size:14px;
 }
 
-.get{
-    margin:0;
-    font-size:14px;
-    padding:12px 24px 0px 24px;
-    text-align:center;
-    line-height:1;
-}
-
-.box-check1{
-    font-size:15px;
-    padding:6px 32px 4px 32px;
-}
-
-.box-check2{
-    font-size:16px;
-    padding:4px 32px 6px 32px;
-}
-
-input[type=checkbox]{
-    transform:scale(1.4);
-    background-color: whitesmoke;
-    vertical-align:;
-}
-
-.box-input{
-    text-align:center;
-    padding: 2px 16px;
-    font-size: 14px;
-}
-
-.box-input input[type=text]{
-    padding:4px;
-}
-
-.box-signup{
-    text-align: center;
-    padding-bottom: 1px;
-}
-
-.signup{
-    color:white;
-    background-image: linear-gradient(#AA7A77,#744346);
-    border:none;
-    padding:4px 8px;
-    font-size:12px;
-    font-weight: bold;
-}
-
-
-
 .box2{
     position: relative;
     margin:8px 0px;
-    background-image:url("img/woman.png");
+    background-image:url("../img/woman.png");
     background-repeat: no-repeat;
     height:188px;
     border:1px solid #744346;
@@ -341,6 +213,169 @@ input[type=checkbox]{
     font-stretch: narrower;
 }
 
+.get{
+    margin:0;
+    font-size:14px;
+    padding:12px 24px 0px 24px;
+    text-align:center;
+    line-height:1;
+}
+
+.box-check1{
+    font-size:15px;
+    padding:6px 32px 4px 32px;
+}
+
+.box-check2{
+    font-size:16px;
+    padding:4px 32px 6px 32px;
+}
+
+input[type=checkbox]{
+    transform:scale(1.4);
+    background-color: whitesmoke;
+    vertical-align:;
+}
+
+.box-input{
+    text-align:center;
+    padding: 2px 16px;
+    font-size: 14px;
+}
+
+.box-input input[type=text]{
+    padding:4px;
+    width:150px;
+}
+
+.box-signup{
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.signup{
+    color:white;
+    background-image: linear-gradient(#AA7A77,#744346);
+    border:none;
+    padding:4px 8px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.img1{
+    padding:12px 8px;
+
+}
+
+
+
+
+.box-varity{
+    position: relative;
+    height: 350px;
+}
+
+.img-varity{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position:absolute;
+    z-index:0;
+    object-fit:none;
+    width:100%;
+    max-height:350px;
+}
+
+
+.premium{
+   position:absolute;
+   right:0px;
+   background:rgba(245,245,245,.8);
+   margin:0px;
+   font-weight:normal;
+   bottom: 0;
+   z-index: 2;
+   margin:2% 1%;
+   padding:8px 16px;
+   text-align: right;
+   font-family: 'arial';
+   line-height: 1.25;
+}
+
+.count{
+    position:absolute;
+   left:0px;
+   background:rgba(245,245,245,.8);
+   margin:0px;
+   bottom: 0;
+   z-index: 2;
+   padding:2px 0px;
+   border-bottom-left-radius: 10px;
+   color:gray;
+   font-weight:bold;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+}
+.direction{
+    padding:4px 8px;
+    font-weight:bold;
+}
+.one{
+    padding:4px 8px;
+}
+
+.two{
+    padding:4px 8px;
+    color:black;
+}
+
+.rb-box{
+    padding:8px 10px;
+}
+
+.box{
+    border:1px solid #744346;
+    background-color: whitesmoke;
+   
+}
+
+.para1{
+    font-size:12px;
+    margin:0;
+    padding:4px 10px;
+    text-align: left;
+}
+
+.para2{
+    font-size:12px;
+    margin:0px 0px 32px 0px;
+    padding:8px 10px;
+    text-align: left;
+}
+
+.readmore{
+    color:darkgreen;
+    font-weight:lighter;
+    font-size:12px;
+    text-decoration:underline;
+    padding: 0px 4px;
+    float:right;
+    text-underline-position: under;
+}
+
+.certi-list{
+    margin:0px;
+    padding:6px 4px;
+    list-style-type: none;
+}
+
+.certi-item{
+    font-size:11px;
+    padding:2px 8px;
+    
+}
+
+
+
 .starwest-heading{
     margin:0px;
     padding:8px 29px 0px 29px;
@@ -349,7 +384,7 @@ input[type=checkbox]{
 }
 
 .starwest-list{
-    list-style-image: url("img/doted.png");
+    list-style-image: url("../img/doted.png");
     margin:0px;
     padding:0px 16px 0px 24px;
     font-size: 13px;
@@ -361,26 +396,31 @@ input[type=checkbox]{
     left:5px;
 }
 
-footer{display: flex;
+footer{
+    display: flex;
     width:100%;
-    justify-content: center;
-    margin-top:20px;
+    justify-content: space-around;
+    margin:0px;
+    padding:16px 0px 0px 0px;
+}
+
+.footer-logo{
+    width:15.5vw;
 }
 
 .footer-logo-box{
-    padding: 24px 48px 24px 8px;
-    border-right:1px solid lightgray;
+    padding: 2.4vw 4.8vw 2.4vw .8vw;
 }
 
 .footer-box{
- border-right:1px solid lightgray;
- padding: 0px 20px 0px 8px;
-
+ border-left:1px solid lightgray;
+ padding:0px 0px 0px 8px;
+ 
 }
 
 .footer-list{
  list-style: none;
- padding: 8px 32px 8px 8px;
+ padding: .8vw 3.2vw .8vw .8vw;
  margin:0;
 }
 
@@ -398,9 +438,10 @@ footer{display: flex;
 
 .website{
     margin:0px;
-    padding: 24px 4px 0px 36px;
+    padding: 2.6vw .4vw 3.6vw 3.6vw;
     text-align: right;
     font-size: 11px;
+ 
 }
 
 

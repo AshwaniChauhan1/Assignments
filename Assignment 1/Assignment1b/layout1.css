@@ -83,9 +83,30 @@ li{
     font-weight: lighter;
 }
 
+@media only screen and (max-width: 1220px) {
+ 
+    .box{
+        height:12vw;    
+    }
+
+    h2{
+        font-size:1.75vw;
+    }
+
+    .proname{
+        font-size:1.75vw;
+    }
+
+    .para{
+        font-size: 1.25vw;
+    }
+
+}
+
+
 @media only screen and (max-width: 768px){
     ul{
-        padding:0;
+        padding:1vw 0vw ;
         margin:0% 0% 0% 12%;
     }
     
@@ -101,12 +122,15 @@ li{
     h2{
         font-size:2vw;
     }
+
     .box{
-        height:12vw;    }
+        height:12vw;    
+    }
     
     .secondaryText{
         font-size:1.75vw;
     }
+
     section{
         margin:0% 12%;
         padding-top:2vw;
@@ -136,5 +160,75 @@ li{
     .foot{
         font-size: 1.5vw;
     }
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    ul{
+        padding:2vw 2vw 2vw 0vw;
+    }
+    
+    li{
+        font-size:3vw;
+        padding:0vw 3vw;
+    }
+    #brand{
+        font-size:3.5vw;
+        padding:0;
+    }
+
+    section{
+        padding-top:3vw;
+        overflow: visible;
+    }
+
+    .ph{
+        font-size: 5vw;
+    }
+    
+    .secondaryText{
+        font-size:3.5vw;
+    }
+
+    .hr1{
+        margin:1vw 0vw;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw 60vw 60vw ;
+        padding:4vw 0px;
+        grid-row-gap: 0;
+      }
+
+    .box{
+        height:30vw;   
+     }
+
+    h2{
+        font-size:4vw;
+    }
+
+
+
+    .proname{
+        font-size:4vw;
+    }
+
+    .para{
+        font-size: 3vw;
+        line-height: 1.5;
+    }
+    .hr2{
+        margin:4vw 0vw;
+    }
+
+    .foot{
+        font-size: 2.5vw;
+    }
+    
 
 }

@@ -1,0 +1,340 @@
+@media screen and (max-width: 1178px){
+body{
+        background-size:cover;
+    }
+
+.head-box{
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: .1vw .1vw;
+}
+
+.starwest{
+    font-size:1.2vw;
+    padding: .2vw 0vw;
+}
+
+
+.top-list-item{
+    font-size: 1.2vw;
+    padding:0vw .8vw;
+}
+
+.head-inputbox{
+    margin:.8vw 0vw;
+    border:.5vw soild gray;
+    padding:0vw .4vw;
+   }
+  
+   .head-inputbox ::placeholder{
+       color:black;
+       font-size: 1.4vw;
+   }
+  
+   .head-input{
+       padding:0vw 3.6vw 0vw .4vw;
+   }
+   
+   input[type=text]{
+       border:.1vw solid silver;
+       width:12vw;
+       font-size: 1.4vw;
+   }
+
+   .icon-wrapper{
+    padding:.2vw .4vw;
+    font-size: 1.2vw;
+    }
+  
+
+
+.nav-list{
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;  
+    line-height: 1.25;
+}
+
+.nav-item{
+    font-size: 1.5vw;
+    padding: .1vw .5vw .1vw .3vw;
+    border-right:.2vw solid white;
+}
+
+.nav-num{
+    padding: .1vw .5vw .1vw .3vw;
+    font-size:2vw;
+    float:none;
+}
+
+.section-box{
+    border-radius: 1vw;
+    margin:3vw auto;
+    width:80%;
+    z-index: -1;
+    padding: 1px;
+    clear:both;
+
+}
+
+.left-box{
+    margin:.5vw;
+}
+
+.heading{
+    padding:0vw .6vw;
+    font-size:1.4vw;
+}
+
+.big-letter{
+    font-size: 2vw;
+    vertical-align: -.2vw;
+}
+
+.small-letter{
+    font-size:1.6vw;
+}
+
+.product-list{
+    padding:.5vw 1vw;
+}
+
+.product-list-item{
+    font-size:1.5vw;
+}
+
+
+.box-check1{
+    font-size:1.5vw;
+    padding:.6vw .4vw .4vw 0vw;
+}
+
+.box-check2{
+    font-size:1.5vw;
+    padding:.4vw .4vw .6vw 0vw;
+}
+
+
+input[type=checkbox]{
+    transform:scale(.5);
+    vertical-align:-.4vw;
+    line-height: .5;
+}
+
+.box-input{
+    padding: .2vw 1.6vw; 
+    line-height: .5; 
+}
+
+.box-input input[type=text]{
+    padding:.4vw;
+    width:14vw;
+    font-size: 1.4vw;
+    
+}
+
+.box-signup{
+    padding-bottom: .1vw;
+    line-height: .5;
+}
+
+.signup{
+    padding:.4vw .8vw;
+    font-size:1.2vw;
+}
+
+.img1{
+    padding:1.2vw .8vw;
+}
+
+.img1a{
+    width:4.7vw;
+}
+
+.box2{
+    margin:.8vw 0vw;
+    height:18.8vw;
+    border:.1vw solid #744346;
+    background-size: cover;
+}
+
+.need-assistance{
+    margin:0px;
+    padding:.4vw .4vw;
+    line-height: .5;
+}
+
+
+
+.box2b{
+    padding:.4vw 0vw;
+    line-height: .4;
+}
+
+.call{
+    margin:0;
+    padding:0vw 0vw 0vw .1vw;
+}
+
+.number{
+    font-size:1.8vw;
+    vertical-align:-1px;
+}
+
+
+
+.box-varity{
+    position: relative;
+    height: 35vw;
+}
+
+.img-varity{
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    object-fit:none;
+    width:100%;
+    max-height:35vw;
+}
+
+.premium{
+    font-weight:normal;
+    bottom: 0;
+    z-index: 2;
+    margin:2% 1%;
+    padding:.8vw 1.6vw;
+    text-align: right;
+    font-family: 'arial';
+    line-height: 1.25;
+    font-size: 3vw;
+ }
+
+ .get{
+    font-size:1.5vw;
+    padding:1vw 2vw 0vw 2vw;
+    line-height:1;
+}
+
+.count{
+   padding:.2vw 0vw;
+   border-bottom-left-radius: 1vw;
+   font-size: 1.6vw;
+}
+
+.direction{
+    padding:.4vw .8vw;
+}
+.one{
+    padding:.4vw .8vw;
+}
+
+.two{
+    padding:.4vw .8vw;
+}
+
+.rb-box{
+    padding:.8vw 1vw;
+}
+
+
+.box{
+    border:.1vw solid #744346;
+   
+}
+
+.para1{
+    font-size:1.2vw;
+    padding:.4vw 1vw;
+}
+
+.para2{
+    font-size:1.2vw;
+    margin:1vw 0vw 3.2vw 0vw;
+    padding:.8vw 1vw;
+}
+
+.readmore{
+    font-weight:lighter;
+    font-size:1.2vw;
+    padding: 0vw .4vw;
+}
+
+.certi-list{
+    padding:.6vw .4vw;
+}
+
+.certi-item{
+    font-size:1.1vw;
+    padding:.2vw .8vw;
+    
+}
+
+.starwest-heading{
+    padding:.8vw 3vw 0vw 3vw;
+    font-size: 3vw;
+}
+
+.starwest-list{
+    padding:0vw 1.5vw 1vw 3vw;
+    font-size: 1.3vw; 
+    list-style-image: none;
+    list-style-type:dot;
+}
+
+.starwest-list-item{
+    top:0vw;
+    left:0vw;
+
+}
+
+/*
+.starwest-list .starwest-list-item:before {
+    content: '';
+    display:inline-block;
+    height: 4vh;
+    width: 2vw;
+    background-size: 1vw;
+    background-image: url("../img/doted.png");
+    background-repeat: no-repeat;
+    vertical-align: -.3vh;
+
+  }
+*/
+
+
+footer{
+    padding:1.6vw 0vw 0vw 0vw;
+}
+
+.footer-logo-box{
+    padding: 2.4vw 4.8vw 2.4vw 2vw;
+}
+
+.footer-logo{
+    width:15.5vw;
+}
+
+.footer-box{
+ border-left:.1vw solid lightgray;
+ padding:0vw 0vw 0vw .8vw;
+ 
+}
+
+.footer-list{
+ padding: .8vw 3.2vw .8vw .8vw;
+}
+
+.footer-list-item{
+    font-size:1.1vw;
+}
+
+.footer-heading{
+    padding: 0vw 3.2vw 0vw .8vw;
+    font-size: 1.2vw;
+}
+
+.website{
+    padding: 2.6vw 1.5vw 3.6vw 3.6vw;
+    font-size: 1.1vw;
+ 
+}
+
+}

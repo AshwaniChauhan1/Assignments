@@ -29,6 +29,15 @@ li{
      margin:0px 98px 0px 98px;
  }
 
+ .section-box{
+     overflow: auto;
+ }
+
+.left-box{
+    width:68%;float: left;
+}
+
+
  .lbox{
     padding:8px 0px;
 }
@@ -68,6 +77,10 @@ li{
 
 .para{
     font-size:small;
+}
+
+.right-box{
+    width:30%;float:right;
 }
 
  .rbox{
@@ -149,23 +162,24 @@ li{
  @media only screen and (max-width: 768px){
     ul{
         padding:1vw 0vw;
-        margin:0% 0% 0% 12%;
+        margin:0% 0% 0% 8%;
     }
 
     li{
-        font-size:1.5vw;
+        font-size:2vw;
         
     }
 
     #brand{
-        font-size:1.75vw;
+        font-size:2.5vw;
         padding:0;
     }
 
     section{
-        margin:0% 12%;
+        margin:0% 8%;
         padding-top:2vw;
     }
+
 
     .lbox{
         padding:.5vw 0vw;
@@ -173,25 +187,25 @@ li{
 
     .title{
         padding:1vw 0px;
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
 
     .test{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .clock{
         margin:0px;
         padding:0;
-        font-size:1.75vw;
+        font-size:2.25vw;
     }
 
     .post{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .placeholder{
-        font-size:4vw;
+        font-size:5vw;
     }
 
     .box{
@@ -201,10 +215,10 @@ li{
      }
 
     .heading{
-        font-size:1.75vw;
+        font-size:2.75vw;
     }
     .para{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .rbox{
@@ -218,7 +232,7 @@ li{
         border-top-left-radius:.25vw;
         border-bottom-left-radius:.25vw;
         padding: .75vw;
-        font-size:1.5vw;
+        font-size:2vw;
      }
 
      .icon-wrapper{
@@ -226,7 +240,7 @@ li{
      border: .25vw solid lightgray;
      border-top-right-radius:.25vw;
      border-bottom-right-radius:.25vw;
-     font-size: 1vw;
+     font-size: 2vw;
      border-left:none;
      }
      
@@ -236,16 +250,16 @@ li{
      }
 
     .heading1{
-        font-size:1.75vw;
+        font-size:3vw;
         padding:.5vw 0vw;
     }
 
     td{
-        font-size:1.5vw;
+        font-size:2vw;
     }
 
     .para1{
-        font-size: 1.5vw;
+        font-size: 2vw;
         padding:0;
     }
 
@@ -254,9 +268,146 @@ li{
     }
 
     .foot{
-        font-size: 1.5vw;
+        font-size: 2vw;
         padding:2vw 0vw;
     }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    ul{
+        padding:2vw 2vw 2vw 0vw;
+    }
+    
+    li{
+        font-size:3vw;
+        padding:0vw 3vw;
+    }
+    #brand{
+        font-size:3.5vw;
+        padding:0;
+    }
+
+    section{
+        margin:0% 12%;
+        padding-top:2vw;
+    }
+
+    .section-box{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+
+    .left-box{
+        width:100%;
+        float:none;
+    }
+
+    .lbox{
+        padding:1vw 0vw;
+    }
+
+    .title{
+        padding:2vw 0px;
+        font-size: 5vw;
+    }
+
+    .test{
+        font-size: 3vw;
+    }
+
+    .clock{
+        font-size:3.25vw;
+    }
+
+    .post{
+        font-size: 3vw;
+    }
+
+    .placeholder{
+        font-size:6vw;
+    }
+
+    .box{
+        height:25vw;
+        margin:4vw 0vw; 
+     }
+
+    .heading{
+        font-size:3.25vw;
+    }
+    .para{
+        font-size: 3vw;
+    }
+
+    .right-box{
+        width:100%;float:none;
+        padding:3vw 0vw;
+    }
+    
+     .rbox{
+        background-color: #F0F0F0;
+        border-radius: 1vw;
+        padding:2vw 3.2vw;
+     }
+     
+     .rbox1{
+        display: flex;
+    }
+    
+     .rbox2{
+
+         margin:3vw 0vw;
+     }
+
+     .heading1{
+        padding:1.2vw 0vw;
+        font-size:4vw;
+   }
+   
+   
+    input{
+       border: .2vw solid lightgray;
+       border-top-left-radius:.6vw;
+       border-bottom-left-radius:.6vw;
+       padding: .8vw 0vw;
+       width: 100% ;
+       line-height: 1.5;
+       
+    }
+   
+    .icon-wrapper{
+    padding:1.2vw 1.6.vw;
+    border: .2vw solid lightgray;
+    border-top-right-radius:.6vw;
+    border-bottom-right-radius:.6vw;
+    font-size:3vw;
+    }
+   
+       
+     
+    table{
+        width:100%;
+    }
+   
+    td {
+       font-size: 3vw;
+    }
+
+    
+    .para1{
+        font-size: 2vw;
+        padding:0;
+    }
+
+    .foot{
+        font-size: 2vw;
+        padding:3vw 0vw;
+    }
+
+    
 
 }
 
